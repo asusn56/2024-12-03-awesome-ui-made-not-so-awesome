@@ -1,0 +1,52 @@
+@use 'responsive';
+
+.hero-wrapper{
+    margin-top:56px;
+    width: 100%;
+    display: flex;
+    padding-bottom: 200px;
+.hero-text-wrapper{
+    width: 50%;
+    margin-top: 155px;
+
+    .h2-hero{
+    font-size: 48px;
+
+}
+.p-hero{
+    // margin-top: 24px;
+    font-size: 20px;
+}
+.button .hero-button-wrapper{
+    justify-content: space-between;
+}
+    
+}
+.hero-image-wrapper{
+    display: flex;
+    // background: linear-gradient(#F5E6DF,#E7E4DE);
+    background: linear-gradient(180deg, rgba(245,230,223,0.5327264694940477) 52%, rgba(231,228,222,0.10135392047443981) 91%); 
+    justify-content: end;
+    width: 50%;
+
+    img{
+       width: 70%;
+       max-height: 585px;
+    }
+
+
+}
+
+@include responsive.sm{
+    .hero-text-wrapper{
+        width: 70%;
+    }
+
+    .hero-image-wrapper{
+        width: 30%;
+    }
+
+}
+
+
+}

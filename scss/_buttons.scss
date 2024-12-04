@@ -1,0 +1,23 @@
+@use 'variables/colors/colors';
+
+.button-green-linear-small{
+    padding: 10px 15px;
+
+    background: linear-gradient(to right,#647B64,#66AC66);
+}
+
+.button-green-linear-large{
+    background: linear-gradient(to right,#647B64,#66AC66);
+    font-size: 16px;
+    font-weight: bold;
+    color: colors.$color-white;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 27px;
+    padding-right: 27px;
+    margin-top:40px;
+
+}

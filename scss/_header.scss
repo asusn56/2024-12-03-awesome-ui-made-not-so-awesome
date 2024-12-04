@@ -1,0 +1,71 @@
+@use 'variables/colors/colors';
+@use 'responsive';
+
+
+header{
+margin-top:40px;
+.header-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+.header-logo-wrapper{
+    display: flex;
+    align-items: center;
+}
+.header-navigation{
+    gap: 40px;
+  display: flex;
+  align-items: center;
+
+  a{
+    color:inherit;
+    font-size: 16px;
+   
+    line-height: 12px;
+}
+
+:last-child{
+    color: colors.$color-white;
+    // padding: 10px 15px;
+    margin-top: 4px;
+    // background: linear-gradient(to right,#647B64,#66AC66);
+    line-height: 20px;
+
+
+
+    // 
+    .hamburger-toggle {
+        display: none;
+      }
+
+      .hamburger-icon {
+        display: none;
+      }
+    // 
+}
+
+
+
+}//header nav
+
+} //header container
+
+.hamburger-toggle {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  @include responsive.sm{
+   
+   .header-navigation-wrapper{
+    display: none;
+   }
+
+}
+}
+

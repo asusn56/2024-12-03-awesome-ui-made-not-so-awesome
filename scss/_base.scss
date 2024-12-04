@@ -1,0 +1,65 @@
+@use 'fonts';
+@use 'variables/colors/colors';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    // font-family: 'Avenir Next LT Pro', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+// background-color: colors.$color-white;
+color: colors.$main-text-color;
+background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 63%, rgba(249,243,238,1) 89%);
+
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1, h3, h4, h5, h6 {
+    margin: 0;
+}
+h2{
+   
+    margin: 0 0 24px 0;
+}
+
+p{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.h2-amet{
+    font-size: 42px;
+    color: #647B64;
+    text-transform: uppercase;
+}
+
+.text-mot-gold{
+    color: #F3B562;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+
+.h3-services-icons{
+    margin-bottom:6px;
+    margin-top:12px;
+    font-size: 24px;
+}
+
+.p-services-icons-text{
+    font-size: 13px;
+    color:#4F4F4F;
+
+}
